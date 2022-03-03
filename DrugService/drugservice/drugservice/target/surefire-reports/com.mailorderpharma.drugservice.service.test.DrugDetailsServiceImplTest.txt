@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: com.mailorderpharma.drugservice.service.test.DrugDetailsServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 17, Failures: 3, Errors: 1, Skipped: 0, Time elapsed: 1.844 s <<< FAILURE! - in com.mailorderpharma.drugservice.service.test.DrugDetailsServiceImplTest
+updateQuantity  Time elapsed: 0.075 s  <<< ERROR!
+com.mailorderpharma.drugservice.exception.DrugNotFoundException: Invalid Token Received
+	at com.mailorderpharma.drugservice.service.test.DrugDetailsServiceImplTest.updateQuantity(DrugDetailsServiceImplTest.java:226)
+
+updateQuantityStockNotFoundExceptiontwo  Time elapsed: 0.06 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown ==> expected: <com.mailorderpharma.drugservice.exception.StockNotFoundException> but was: <com.mailorderpharma.drugservice.exception.DrugNotFoundException>
+	at com.mailorderpharma.drugservice.service.test.DrugDetailsServiceImplTest.updateQuantityStockNotFoundExceptiontwo(DrugDetailsServiceImplTest.java:288)
+Caused by: com.mailorderpharma.drugservice.exception.DrugNotFoundException: Invalid Token Received
+	at com.mailorderpharma.drugservice.service.test.DrugDetailsServiceImplTest.lambda$updateQuantityStockNotFoundExceptiontwo$11(DrugDetailsServiceImplTest.java:289)
+	at com.mailorderpharma.drugservice.service.test.DrugDetailsServiceImplTest.updateQuantityStockNotFoundExceptiontwo(DrugDetailsServiceImplTest.java:288)
+
+getDispatchableDrugStockFalseStockNotFoundException  Time elapsed: 0.007 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: getDrugByIdTest ==> Expected com.mailorderpharma.drugservice.exception.StockNotFoundException to be thrown, but nothing was thrown.
+	at com.mailorderpharma.drugservice.service.test.DrugDetailsServiceImplTest.getDispatchableDrugStockFalseStockNotFoundException(DrugDetailsServiceImplTest.java:195)
+
+updateQuantityStockNotFoundException  Time elapsed: 0.069 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown ==> expected: <com.mailorderpharma.drugservice.exception.StockNotFoundException> but was: <com.mailorderpharma.drugservice.exception.DrugNotFoundException>
+	at com.mailorderpharma.drugservice.service.test.DrugDetailsServiceImplTest.updateQuantityStockNotFoundException(DrugDetailsServiceImplTest.java:269)
+Caused by: com.mailorderpharma.drugservice.exception.DrugNotFoundException: Invalid Token Received
+	at com.mailorderpharma.drugservice.service.test.DrugDetailsServiceImplTest.lambda$updateQuantityStockNotFoundException$10(DrugDetailsServiceImplTest.java:270)
+	at com.mailorderpharma.drugservice.service.test.DrugDetailsServiceImplTest.updateQuantityStockNotFoundException(DrugDetailsServiceImplTest.java:269)
+

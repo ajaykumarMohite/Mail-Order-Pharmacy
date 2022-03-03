@@ -1,0 +1,10 @@
+com\mailorderpharma\drugservice\model\test\StockTest.class
+com\mailorderpharma\drugservice\model\test\TokenValidTest.class
+com\mailorderpharma\drugservice\model\test\DrugLocationDetailsTest.class
+com\mailorderpharma\drugservice\model\test\ResponseForSuccess.class
+com\mailorderpharma\drugservice\service\test\DrugDetailsServiceImplTest.class
+com\mailorderpharma\drugservice\model\test\DrugDetailsTest.class
+com\mailorderpharma\drugservice\controller\test\DrugControllerTest.class
+com\mailorderpharma\drugservice\model\test\SuccessResponseTest.class
+com\mailorderpharma\drugservice\model\test\ExceptionResponseTest.class
+com\mailorderpharma\drugservice\model\test\AuthResponseTest.class
