@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: ajay
+Build-Jdk: 15.0.1
+Implementation-Title: Authorization Microservice
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.mail-order-pharma
+Implementation-URL: https://spring.io/projects/spring-boot/Authorization
+Main-Class: com.mailorderpharma.authservice.AuthService
+Created-By: Maven Integration for Eclipse
+
